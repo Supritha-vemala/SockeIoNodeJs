@@ -31,7 +31,7 @@ postsRoutes.get('/GET', async (req, res) => {
 		res.status(500).json({ error: err.message });
 	}
 });
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3001;
 
 server.listen(PORT, function () {
 	console.log('listening on *:3001');
